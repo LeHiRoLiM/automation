@@ -39,33 +39,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.All in automacao_basic (1).executor": "Run",
-    "JUnit.All in automacao_basic.executor": "Run",
-    "JUnit.Primeira.executor": "Run",
-    "JUnit.Primeira.teste01.executor": "Run",
-    "JUnit.Primeira.teste02.executor": "Run",
-    "JUnit.Primeira.teste03.executor": "Run",
-    "JUnit.Primeira.teste04.executor": "Run",
-    "JUnit.Primeira.teste05.executor": "Run",
-    "JUnit.Primeira.teste06.executor": "Run",
-    "JUnit.Primeira.teste07.executor": "Run",
-    "JUnit.primeira.executor": "Run",
-    "JUnit.primeira.teste01.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/home/lehi/code/learning-java/automacao_basic/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.All in automacao_basic (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in automacao_basic.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Primeira.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Primeira.teste01.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Primeira.teste02.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Primeira.teste03.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Primeira.teste04.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Primeira.teste05.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Primeira.teste06.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Primeira.teste07.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.primeira.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.primeira.teste01.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/lehi/code/learning-java/automacao_basic/src/main/java/org/example/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Primeira.teste03">
+  <component name="RunManager" selected="JUnit.Primeira">
     <configuration name="Primeira" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automacao_basic" />
       <option name="PACKAGE_NAME" value="" />
@@ -75,21 +75,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Primeira.teste02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automacao_basic" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Primeira" />
-      <option name="METHOD_NAME" value="teste02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Primeira.teste03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automacao_basic" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Primeira" />
       <option name="METHOD_NAME" value="teste03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Primeira.teste05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automacao_basic" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Primeira" />
+      <option name="METHOD_NAME" value="teste05" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Primeira.teste03" />
-        <item itemvalue="JUnit.Primeira.teste02" />
         <item itemvalue="JUnit.Primeira" />
         <item itemvalue="JUnit.Primeira.teste07" />
         <item itemvalue="JUnit.Primeira.teste06" />
+        <item itemvalue="JUnit.Primeira.teste05" />
+        <item itemvalue="JUnit.Primeira.teste03" />
       </list>
     </recent_temporary>
   </component>

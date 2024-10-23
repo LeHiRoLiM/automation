@@ -26,8 +26,8 @@ public class Primeira extends Hooks
         By toast = By.cssSelector("#toast_notification div:nth-child(1) div.toast-body");
         String msgTela = driver.findElement(toast).getText();
         Assertions.assertEquals("Login com sucesso!", msgTela);
-        Thread.sleep(1000);
         System.out.println(msgTela);
+        Thread.sleep(1000);
     }
 
    @Test
@@ -42,9 +42,11 @@ public class Primeira extends Hooks
        driver.findElement(By.id("pass")).sendKeys("qwe321");
        driver.findElement(By.id("login")).click();
        Thread.sleep(2000);
-       driver.findElement(By.id("toast_notification"));
+       By toast = By.cssSelector("#toast_notification div:nth-child(1) div.toast-body");
+       String msgTela = driver.findElement(toast).getText();
+       Assertions.assertEquals("Incorrect password", msgTela);
+       System.out.println(msgTela);
        Thread.sleep(1000);
-       System.out.println("Incorrect Password");
    }
 
     @Test
@@ -57,10 +59,11 @@ public class Primeira extends Hooks
         driver.findElement(By.id("pass")).click();
         driver.findElement(By.id("pass")).sendKeys("qwe321");
         driver.findElement(By.id("login")).click();
-        // Thread.sleep(2000);
-        driver.findElement(By.id("toast_notification"));
+         Thread.sleep(2000);By toast = By.cssSelector("#toast_notification div:nth-child(1) div.toast-body");
+        String msgTela = driver.findElement(toast).getText();
+        Assertions.assertEquals("User not found", msgTela);
+        System.out.println(msgTela);
         Thread.sleep(1000);
-        System.out.println("User not foud");
     }
 
     @Test
@@ -73,8 +76,12 @@ public class Primeira extends Hooks
         driver.findElement(By.id("pass")).sendKeys("qwe3210");
         driver.findElement(By.id("login")).click();
         driver.findElement(By.id("toast_notification"));
+        Thread.sleep(2000);By toast = By.cssSelector("#toast_notification div:nth-child(1) div.toast-body");
+        String msgTela = driver.findElement(toast).getText();
+        Assertions.assertEquals("User not found", msgTela);
+        System.out.println(msgTela);
         Thread.sleep(1000);
-        System.out.println("Incorrect Password");
+
 
     }
     @Test
@@ -87,8 +94,11 @@ public class Primeira extends Hooks
         driver.findElement(By.id("pass")).sendKeys("");
         driver.findElement(By.id("login")).click();
         driver.findElement(By.id("toast_notification"));
+        Thread.sleep(2000);By toast = By.cssSelector("#toast_notification div:nth-child(1) div.toast-body");
+        String msgTela = driver.findElement(toast).getText();
+        Assertions.assertEquals("Fill in password", msgTela);
+        System.out.println(msgTela);
         Thread.sleep(1000);
-        System.out.println("Fill in Password");
     }
 
     @Test
@@ -101,8 +111,11 @@ public class Primeira extends Hooks
         driver.findElement(By.id("pass")).sendKeys("qwe123");
         driver.findElement(By.id("login")).click();
         driver.findElement(By.id("toast_notification"));
+        Thread.sleep(2000);By toast = By.cssSelector("#toast_notification div:nth-child(1) div.toast-body");
+        String msgTela = driver.findElement(toast).getText();
+        Assertions.assertEquals("Fill in email", msgTela);
+        System.out.println(msgTela);
         Thread.sleep(1000);
-        System.out.println("Fill in email");
     }
 
     @Test
@@ -115,7 +128,10 @@ public class Primeira extends Hooks
         driver.findElement(By.id("pass")).sendKeys("");
         driver.findElement(By.id("login")).click();
         driver.findElement(By.id("toast_notification"));
+        Thread.sleep(2000);By toast = By.cssSelector("#toast_notification div:nth-child(1) div.toast-body");
+        String msgTela = driver.findElement(toast).getText();
+        Assertions.assertEquals("Fill in email", msgTela);
+        System.out.println(msgTela);
         Thread.sleep(1000);
-        System.out.println("Fill in email");  // por causa da ordem de precedência
     }
 }
